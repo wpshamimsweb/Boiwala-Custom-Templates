@@ -1,0 +1,540 @@
+/* .elementor-widget-reviews .elementor-main-swiper, .elementor-widget-testimonial-carousel .elementor-main-swiper{
+	width: 100% !important;
+} */
+.kiko-hamburger-menu{
+	
+	color: #000000;
+}
+.elementor-element-5eddabd9{
+	margin-top: 200px;
+}
+#qodef-page-footer .widget , #qodef-page-footer .widget a{
+	color: black;
+	font-weight: 600;
+}
+
+#qodef-page-inner {
+    padding: 0px 0px 88px;
+}
+
+/*books archive page*/
+
+.book-banner {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust as needed */
+}
+.book_thumbnail {
+	margin-top: 10px;
+    height: 30px;
+    float: right;
+    width: 30px;
+}
+.book_author_relation{
+	font-size: 16px;
+	margin: 0px;
+	line-height: 14px;
+	
+}
+.book-banner h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.book_category_section {
+  width: 33.3%;
+  float: left;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.book_category_title{
+	color: #002045 !important;
+  font-size: 28px;
+  line-height: 52px;
+	margin: 0px;
+}
+.book_post_title{
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 500;
+	margin:  0px;
+	margin-top: 5px;
+}
+.see-more-button a{
+	color: #f36b7f;
+	font-weight: 700;
+	padding: 20px 0px ;
+	transition: opacity 0.3s;
+}
+.see-more-button{
+
+	padding-top: 15px ;
+}
+.see-more-button a:hover{
+
+	text-decoration: underline;
+	opacity: 0.7;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*books category page*/
+/* Clearfix to clear floats */
+.post-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 3-post layout styles using float */
+.post-grid-item {
+    width: 25%; /* 100% divided by 3 posts = 32% */
+    float: left;
+ 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.tax-books-category .post-grid-item {
+    width: 16.6%; /* 100% divided by 3 posts = 32% */
+    float: left;
+ 
+    box-sizing: border-box;
+    padding: 10px;
+}
+.post-grid-item h2{
+	font-size: 25px;
+}
+.post-grid-item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tax-books-category .post-grid-item h2{
+	font-size: 20px;
+}
+.tax-authors-category .post-grid-item h2{
+	margin-top: 20px;
+	line-height: 10px;
+}
+.post-grid-item a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.tax-books-category .post-grid-item a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+	  font-size: 14px
+}
+.tax-books-category p.archive_post_meta {
+    text-align: center;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0px;
+	  font-size: 14px;
+}
+
+.post-grid-item h2 {
+    margin: 10px 0;
+}
+
+.qodef-m-subtitle{
+	display: none;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.pagination .current {
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+}
+
+ /* Single Book*/
+.book-content-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.single_book-main-content {
+    width: 60%;
+    float: left;
+}
+.single_book-main-content h1{
+    margin: 0px;
+	  font-size: 34px
+}
+.single_meta_field_label{
+	font-weight: 500;
+	font-size: 20px !important;
+}
+.single_meta_field{
+	font-size: 14px !important;
+	font-weight: 300 !important;
+}
+.single_book-sidebar {
+    width: 30%; /* Adjust the width as needed */
+    float: right;
+    /* Add any additional styling for the sidebar here */
+}
+
+h1 {
+    /* Add styling for the book title here */
+}
+
+.single_book-entry-content {
+    /* Add styling for the main content section */
+}
+.single_book-sidebar img{
+	height: auto;
+	width: 300px;
+}
+.single_author_sidebar img {
+    /* Add styling for the post thumbnail here */
+
+	width: 300px;
+}
+
+.single_book-sidebar h2 {
+    /* Add styling for the book title in the sidebar here */
+}
+
+.single_book-custom-fields {
+    /* Add styling for the custom fields section in the sidebar here */
+}
+
+.single_book-custom-fields p {
+    /* Add styling for each custom field in the sidebar here */
+}
+
+
+    /* Interview */
+
+.interview-listing {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.interview-item {
+    clear: both;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.interview-item-left {
+    float: left;
+    width: 50%;
+}
+
+.interview-item-left .interviewer_name{
+    margin: 0px;
+}
+
+.interview-item-right {
+    float: right;
+    width: 50%;
+	  padding-left: 40px
+}
+
+.interview-thumbnail img {
+    width: 100%;
+    height: auto;
+	  padding-bottom: 20px
+}
+.page-template-archive-interview .interview-thumbnail img {
+    width: 100%;
+    height: 250px;
+	  padding-bottom: 20px
+}
+.interview-date {
+    text-align: left;
+    margin: 0px;
+	  font-size: 14px;
+}
+
+/* Clear float after interview-item */
+.interview-listing:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination .page-numbers.current {
+    background-color: #ccc;
+}
+
+p.archive_post_meta {
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.label_interviewer{
+	  margin: 0px;
+	  line-height: 34px;
+	  font-size: 22px;
+	  font-weight: 500
+	 
+	  
+}
+.interviewer_name{
+	 font-size: 14px;
+	 font-weight: 500;
+}
+.interview-item-left h2{
+	font-size: 25px;
+	margin: 0px;
+	line-height: 40px
+}
+.label_interviewer{
+	  margin: 0px;
+	  line-height: 30px;
+	  font-size: 20px;
+	  
+}
+.interview-item-left h2{
+	font-size: 25px;
+	margin: 0px;
+	line-height:38px
+}
+.interview-item-right{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.interview-item-left{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.interview-item-left h2{
+	font-size: 25px;
+}
+ /* Single news template */
+
+.news-post-container {
+margin: 20px;
+padding: 20px;
+}
+.news-post-title {
+font-size: 24px;
+margin-bottom: 10px;
+}
+.news-post-info {
+background-color: black;
+color: white;
+padding: 10px;
+overflow: hidden;
+}
+.news-author-name {
+float: left;
+}
+.news-published-date {
+float: right;
+}
+.news-post-content {
+clear: both;
+margin-top: 20px;
+}
+.read_more_news{
+	padding-top: 0px;
+}
+.related_news{
+	list-style-type: none;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 36px;
+}
+.related_books_title{
+	font-size: 27px;
+	color: blue;
+}
+input, textarea{
+	border-radius: 0px;
+	margin-bottom: 15px !important;
+}
+.single_meta_field {
+	margin: 0px !important;
+}
+.custom_meta_field{
+	padding: 10px;
+	padding-top: 5px;
+	width: 300px
+  
+}
+.single_meta_field_label{
+	margin: 0px;
+	line-height: 36px;
+}
+.custom_meta_field:nth-child(odd) {
+        background-color: #ffffff;
+    color: #000;
+}
+.custom_meta_field:nth-child(even) {
+    background-color: #f3f3f3;
+    color: #000;
+}
+.related_books_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.related_books_row {
+    display: table-row;
+}
+
+.related_books_cell {
+    display: table-cell;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_row {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.related_books_cell .book_title{
+	font-size: 20px;
+}
+.tax-publishers-category .post-grid-item img{
+	height: 200px;
+	width: 300px;
+}
+.interviewer_thumbnail{
+	margin-top: 20px;
+  height: 40px !important;
+  float: right;
+  width: 39px !important;
+}
+.book_field_label {
+	margin: 0px !important;
+	margin-top: 5px !important;
+}
+@media screen and (max-width: 760px) {
+.book_category_section {
+    width: 100%;
+}
+.interview-item-left {
+	  float: left;
+    width: 100%;
+	
+}
+.interview-item-right {
+	  float: right;
+    width: 100%;
+	  padding-left: 0px;
+	  
+}
+
+.book-banner h1 {
+    position: absolute;
+    top: 12%;
+    font-size: 30px;
+}
+.post-grid-item {
+    width: 50% !important;
+    float: left;
+
+
+}
+.single_book-main-content {
+    width: 100%;
+    float: none;
+}
+.single_book-sidebar {
+    width: 100%;
+    float: none;
+}
+.tax-authors-category .post-grid-item h2{
+	line-height: 24px;
+	font-size: 20px;
+}
+}
+
+@media screen and (min-width:767px) and (max-width:1020px){
+.tax-books-category .post-grid-item {
+    width: 31.6%;
+}
+.tax-authors-category .post-grid-item h2{
+	line-height: 24px;
+	font-size: 20px;
+}
+.post-grid-item {
+    width: 33%;
+}
+}
+
+.related_books {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .related_book {
+        float: left;
+        width: 33.33%; /* Adjust this value to control the number of columns */
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .related_book_thumbnail img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .related_book_title {
+        margin-top: 10px;
+			  font-size: 18px;
+			  font-weight: 600;
+    }
